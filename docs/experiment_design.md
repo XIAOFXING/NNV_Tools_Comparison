@@ -87,14 +87,14 @@ Benchmarks with at least 1 vote and not included in the regular track were score
 
 **Since not every verifier is capable of being evaluated on all benchmarks, we have compiled the following table detailing their respective availabilities:**
 
-|  | **cGAN**  | **ViT** | **cifar100** | **CORA** |
-|-----------|-----------|-----------|-------------|-----------|
-| **α-β-CROWN** | √ | √ | √ | √ |
-| **nnenum** | √ | × | × | √ |
-| **Marabou** | √ | √ | × | × |
-| **NNV** | √ | × | √ | √ |
-| **NeuralSAT** | √ | √ | √ | √ |
-| **CORA** | × | × | × | √ |
+|  |**Hardware**  | **cGAN**  | **ViT** | **cifar100** | **CORA** |
+|-----------|-----------|-----------|-----------|-------------|-----------|
+| **α-β-CROWN** | GPU| √ | √ | √ | √ |
+| **nnenum** | CPU| √ | × | × | √ |
+| **Marabou** | CPU| √ | √ | × | × |
+| **NNV** | CPU| √ | × | √ | √ |
+| **NeuralSAT** | GPU| √ | √ | √ | √ |
+| **CORA** | GPU| × | × | √ | √ |
 
 ## 7. Evaluation Metrics
 
